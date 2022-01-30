@@ -1,0 +1,52 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+img{
+    max-width: 100%;
+    width:100%;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 0;
+}
+
+.navbar-nav .log{
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    top: 8px;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    border-radius: 0;
+    box-shadow: none;
+    background: #80bc12;
+}
+
+.dropdown-menu>li>a{color: #FFF;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #FFF;
+    background-color: #80bc12;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background: #fff;
+}
+
+.form-control{
+    border-radius: 0;
+    height: 45px;
+}
